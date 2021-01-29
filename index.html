@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA CALCULATOR</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="centre">
+      <h1>CGPA CALCULATOR</h1>
+    </div>
+    <div class="first">
+        <p><h2>Enter Number of Subjects:</h2></p>
+        <input type="num" id='n' placeholder="Enter here">
+    </div>
+      <div class="button">
+        <!-- Create 1 button. One for adding the fields and one for doing tha calculation -->
+        <button type="button" name="button" onClick='inputField()'>Click here to enter marks</button>
+        <br>
+      </div>
+  
+      <div class="texts" id='texts'>
+        <br>
+        <!-- This is where the new input fileds will be created -->
+      </div>
+      <div class="button">
+        <button type="button" name="button" onClick='calculate()'>Click here to view overall grade and CGPA</button>
+      </div>
+  
+      <div class="grade" id='Final mark'>
+        <!-- This is where the code for the grade to be displayed will be added -->
+      </div>
+      <br>
+      <div class="no" id='Final num'>
+        <!-- This is where the code for the cgpa number to be displayed-->
+      </div>
+    <script src="index.js"></script>
+</body>
+</html>
